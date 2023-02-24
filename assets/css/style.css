@@ -147,6 +147,7 @@
     border-radius: 50%;
     width: 180px;
     height: 180px;
+    object-fit: cover;
     user-select: none;
     z-index: 2;
 }
@@ -288,6 +289,10 @@
 .intro-subContent a {
     color: var(--white-color);
     font-weight: 500;
+}
+
+.intro-subContent p:first-child {
+    margin-left: -2px;
 }
 
 .intro-subContent a:hover {
